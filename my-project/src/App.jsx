@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="App" >
-
+      <Nav />
       <div ref={boxref} className="box mt-10 ms-10 rounded-lg w-72 h-72 bg-red-400">
       </div>
       <div ref={boxref2} className="box1 mt-10 ms-10 h-72 w-72 bg-green-600 "></div>
@@ -89,7 +89,7 @@ function App() {
       <div ref={tox1} className="to1 h-40 w-40 bg-green-600"></div>
       <div ref={tox2} className="to2 h-40 w-40 bg-yellow-600"></div><br />
       <br />
-      <Nav />
+      
     </div>
   );
 }
