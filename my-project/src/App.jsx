@@ -6,11 +6,10 @@ import Nav from "./component/Nav.jsx";
 import "./App.css";
 // import { useRef } from "react";
 function App(){
-  // useGSAP(() => {
-  // })
+
   return (
     <div className="App">
-      <Nav/>
+     <Nav/>
     </div>
   );
 }
