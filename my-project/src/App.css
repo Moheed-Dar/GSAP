@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+body{
+  cursor:default;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+.h1-font {
+  font-family: "Playfair Display", serif;
+  
+  font-weight: 600; /* Adjust weight as needed (e.g., 400 for regular, 700 for bold) */
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 5px;
+}
+#h1-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+
+.no-blend{
+  mix-blend-mode: normal; 
+  position: relative; /* Ensure it works with stacking context */
+  z-index: 11;
+}
