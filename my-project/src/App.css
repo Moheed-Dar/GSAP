@@ -1,14 +1,68 @@
-.App {
+/* .App {
   text-align: center;
+} */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body{
-  cursor:default;
+  background-image: url("https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 100%;
+  overflow-x: hidden;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
-.h1-font {
-  font-family: "Playfair Display", serif;
+.col-6> h1
+  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+  }
+ 
+#i{
+  font-weight:bolder;
+  font-size: 40px;
   
-  font-weight: 600; /* Adjust weight as needed (e.g., 400 for regular, 700 for bold) */
+}
+.list{
+  width:30%;
+  height:80%;
+  background-color: rgba(255, 255, 255, 0.47);
+  position:absolute;
+  top:0px;
+  right:-30%;
+  border-radius: 10px 0px 0px 10px;
+  backdrop-filter: blur(20px);
+  padding:120px 60px;
+}
+.list h4{
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+#i2{
+  position: absolute;
+  top:25px;
+  right:35px;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 50%;
+  
+}
+/* body{
+  cursor:default;
+} */
+
+/* .h1-font {
+  font-family: "Playfair Display", serif;
+  font-weight: 600; 
   font-style: normal;
   font-size: 35px;
   margin-top: 5px;
@@ -19,9 +73,9 @@ body{
   font-weight:500;
   font-style: normal;
 }
-
 .no-blend{
   mix-blend-mode: normal; 
-  position: relative; /* Ensure it works with stacking context */
+  position: relative; 
   z-index: 11;
-}
+} */
+ 
