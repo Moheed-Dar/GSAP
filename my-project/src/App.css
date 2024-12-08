@@ -8,14 +8,39 @@ html, body {
 }
 
 body{
-  background-color: black;
+  background-color: white;
+}
+#page1,#page2, #page3{
   width:100%;
   height:100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color:black;
 }
+#move{
+  background-color:#D9FF06;
+  padding:3vm 0vm;
+  overflow-x: hidden;
 
+}
+.marque{
+  flex-shrink: 0;
+  padding:40px 0px;
+  transform: translateX(100%);
+}
+.marque h1{
+  color:black;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 5px;
+  font-size: 2vw;
+}
+.marque img{
+  /* width:40px; */
+  height:30px;
+  
+}
+/*this is the texttypeanimation */
+/* 
 h1{
     font-family: cursive;
     font-optical-sizing: auto;
@@ -28,7 +53,8 @@ h1 span{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
+ /* this is closing the aniamtion of typing*/
 
 /* this is the nav pills portions 
 body{
