@@ -15,9 +15,21 @@ body{
   justify-content: center;
   align-items: center;
 }
-h1 span{
-  display: inline-block;
+
+h1{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  
 }
+h1 span{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* this is the nav pills portions 
 body{
   background-image: url("https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=600");
