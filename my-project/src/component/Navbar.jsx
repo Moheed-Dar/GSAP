@@ -25,10 +25,10 @@ function Navbar() {
     })
     tl.pause()
   })
-  menu.addEventListener("click", function () {
+  menu.addEventListener("click", function(){
     tl.play()
-  });
-  cross.addEventListener("click", function () {
+  })
+  cross.addEventListener("click", function(){
     tl.reverse()
   })
   return (
